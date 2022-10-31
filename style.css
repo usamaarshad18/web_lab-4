@@ -1,0 +1,102 @@
+
+.first {
+        border: 1px solid #000;
+        background-color: yellow;
+        padding: 5px;
+        width: 40%;
+        
+		
+	}
+	
+.fist a + div {
+		display: none;
+	}
+	
+.fist	a:hover + div {
+    transform: rotate(180deg);
+		display: block;
+		color: #000;
+        margin-top: -65px;
+		
+	}
+
+
+ 
+
+.fivet h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+  div.polaroid {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+ .two {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-delay: 1s;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+ .two:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+  }
+ .opacity img:hover {
+    opacity: 0.5;
+  }
+ .grayscale img:hover {
+  filter: grayscale(100%);
+  }
+  .blur img:hover {
+  filter: blur(5px);
+  }
+  div.gallery {
+    margin: 0px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .gal{
+    width: 100%;
+  }
+  @media screen and (min-width: 800px) {
+    div.gallery {
+      width: 24%;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 800px) {
+    div.gallery {
+      width: 48%;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    div.gallery {
+      width: 96%;
+    }
+  }
+  
+  
+  
+    
